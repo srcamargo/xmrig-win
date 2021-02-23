@@ -16,7 +16,8 @@
 :: Smaller pools also often have smaller fees/payout limits.
 
 cd %~dp0
-xmrig.exe -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u srcamargo1@hotmail.com -p x -t 4-p x
+::xmrig.exe -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u srcamargo1@hotmail.com -p x -t 4-p x
+xmrig.exe -a randomx -o stratum+tcp://gulf.moneroocean.stream:10128 -u 49GRfnRuzeeWTiCUX2cymY1rAwiBdMbdaDrzs8T7bXRg7o9477sLT4FAVUS4aWSpBhacDLiHPoRDWGmn5gYU2yk3BgHCNzR
 pause
 
 
